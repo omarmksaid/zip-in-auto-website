@@ -1,0 +1,242 @@
+{
+    "formatted_address": "901 Camden Ave #9, Campbell, CA 95008, USA",
+    "formatted_phone_number": "(408) 559-6677",
+    "geometry": {
+        "location": {
+            "lat": 37.2739688,
+            "lng": -121.949593
+        },
+        "viewport": {
+            "northeast": {
+                "lat": 37.2754235302915,
+                "lng": -121.9483538697085
+            },
+            "southwest": {
+                "lat": 37.2727255697085,
+                "lng": -121.9510518302915
+            }
+        }
+    },
+    "name": "Zip In Auto",
+    "opening_hours": {
+        "open_now": true,
+        "periods": [
+            {
+                "close": {
+                    "day": 1,
+                    "time": "1700"
+                },
+                "open": {
+                    "day": 1,
+                    "time": "0800"
+                }
+            },
+            {
+                "close": {
+                    "day": 2,
+                    "time": "1700"
+                },
+                "open": {
+                    "day": 2,
+                    "time": "0800"
+                }
+            },
+            {
+                "close": {
+                    "day": 4,
+                    "time": "0500"
+                },
+                "open": {
+                    "day": 3,
+                    "time": "0800"
+                }
+            },
+            {
+                "close": {
+                    "day": 4,
+                    "time": "1700"
+                },
+                "open": {
+                    "day": 4,
+                    "time": "0800"
+                }
+            },
+            {
+                "close": {
+                    "day": 5,
+                    "time": "1700"
+                },
+                "open": {
+                    "day": 5,
+                    "time": "0800"
+                }
+            },
+            {
+                "close": {
+                    "day": 6,
+                    "time": "1700"
+                },
+                "open": {
+                    "day": 6,
+                    "time": "0800"
+                }
+            }
+        ],
+        "weekday_text": [
+            "Monday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+            "Tuesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+            "Wednesday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fAM",
+            "Thursday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+            "Friday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+            "Saturday: 8:00\u202fAM\u2009\u2013\u20095:00\u202fPM",
+            "Sunday: Closed"
+        ]
+    },
+    "photos": [
+        {
+            "height": 250,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU5AzwouLDk_Zy34ELFSnlPxvp0geOxrSqnRu1A-KBcPF_hGNqbpJgX1joIvNjpf-JlYWgEhisuPz5MXOTVyxADgJyVlpMQ7x-vUuYNAIWCwvGrNiTXArO01VsB_sveSZzxYbTEdwNEbFnOtUxNp_aksmKtOFuebnk5PGDglLv6lxQWKyzYVsTqNV901a3OXfOHccGPoqEIWOlVh95etiYZ7A3F7nNTDyNzEyCFQQT9-DmXiUyKY1qHgrlww5ens_11-Yy7ZVjHiHl8KkP_3KewT6Zru7uf_6SfXPvAlMnRAbA",
+            "width": 263
+        },
+        {
+            "height": 4000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU7fCfmCo5hNO0Vqi3MhxOSMqaAG__Dk3-8vSiec824bA03KNIa72iNlsBnDyI_iqftjC2oSia2MQ9Sb4n_Bzp7buEDq-reDczJOa3myt_3pFxqBfbWjRnzwCT6KDFOzsP7eeDltN-kdkzXCepGUDtEIXSGFn9qoYy20TbosUN6oj8EokO0RC6iNBNWoZxBDHfZ_Vgxy1MM3ZQN9pCzQf117TLHGjJBYN-DMZe-7oIxPr1yFnIEpl_jcB4bD8fFGqUQPwmAgdYm3EBA6iNML6J0f12znam4AplSKUsEtYDWlKA",
+            "width": 3000
+        },
+        {
+            "height": 4000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU6kHpK6I685_qgh1ME_SOUux3wtrPiV3lwzHd6G2Dx_v3LFCxVkLkwbmvTixMo8jMETJE9CCAvQCRqOafM31dzhrDTqvna0N09VdH8t45Ym0VmyCnj8coJO8A6xvAclP_Dh_H4UijZC7FDIulmGvyFwUc1tT2wzGF7VduMQDFuDQ-bddht-p5WWFDz-9J0sjf6oXr9ZDodE41MH99HEzpe_iZE2jNLSVslZ2f7nVa7U6zKw3UnwpVk5E3pTOu3bXRcKdG-U0OL_rXoEb3_VljKo_E-p59lvmXBhbgBi9mYTFg",
+            "width": 3000
+        },
+        {
+            "height": 3000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU7ucw8zyb_pXjfZqgKgBGUFLV-3mh3BA8HDt5ZhqYapc84J7UInj_w0nnGcybgQuIR4QYocu-WHbyCnpho8rXPP04rDrZctBXbHrFUZyLHh2bRBHm0dE_6jdRQTjlxritLxO28ukmOfEqLopPp1r3YH1RhaohBEL-MhFz-162S2xhlv2Z95LsN6F_iQ167Z23nnxshp1-_FmReGhnP-iOZ4BrgsWLhuP58-icGbfuaTs_c9QOfcHXo_aKYDX3CfztWNkAUUj66IaxWygOdkIgUTw4eI1TM-O7PbfmVO05Ea2g",
+            "width": 4000
+        },
+        {
+            "height": 1960,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU4kT7R1PZH7PSe9DfoMQ6bY4IQPLqhx2UqZUx4ur_tLHRAztL4fD3GE80IjBrbzfW0BoNvFTc0WmpVhkjw99Rvizbx1fZ6jZtx0qUFcSTLAMVi1ownp34Iq9PiqR3FkUomquGHR5utcs00ZnGC7otg0nmuWkkIogn2qcREQHU25rG1OfhPbO3exr7CsH__wJ3qKT6-0p5xajhhXxyIyLmkgU01wH70pAjqcCMHprb5QdwJswwbVqgMLjAaDEQmN8Uw6XCG_JimsehtU6ppC4CjZNyuEUeS3J3r68YGyVk6kAQ",
+            "width": 4032
+        },
+        {
+            "height": 3072,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/106686239358553975055\">Navarre Corporation</a>"
+            ],
+            "photo_reference": "AWn5SU5NgJ5TdbgSW2nDG-u7ww0_FPpiyroZ_ZfvSlfHaZgjpxcoTJKGJoiqwd6shET4TgRa6KFAh61I3j0RnHkfpq0jeQ6JB8yMF9NdGKQdlGvt5Ib8KdJBwWRXSLaPnqZemFQH9kzQU_K2Ev4m1wmZveVSFUtHezREKtQpKNcW3jV8eK4AfUglotUfzAjauBV1QquGWVnkDTxdIdyrLrEDos5ogNBIt5VsWVkyRJj69qU9S0dEubw6uO3yzqAw7yHqsXIdi-Cr1_oK1ObqDbyxx9nk5X8vVy7ImPyOfBxBhGRH2ere9mseOlBbS_SqABhjw0dj2Sfc6QOAJQ_lcuRGxQkru52tDLmbYbKIdimwRE1kb6MZWIO5TLXSM35jr5OMzpW2Tzu-F_vZKFzosbbovGhLChDO0WBD9OzUD1N7pkMo_UwsndWfPjwVt3-mdZ-t",
+            "width": 4080
+        },
+        {
+            "height": 4000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU5XuaeCJa-vk8LFd_ztgjZE4JWoqb3ktQ9EnsbqpthIl6FN0GTLhk11G4s-PpVnjspzhPdmhe6OovX84DWZ43WcBvyka5NgnjR8uQliammge1CgBhj6pv_O4CYksW1srj8I7FdvPZPiXQ6V71fhyBqGWZLYZYmw7so2y2fCrmbJXQW4Y-xk3HDQ2_dvpXaegfUGoO7fFoKQ-tK4LeMhEr0vHq79aiittGCKp5h81JX9O4bNQ9ptxCdbK4Gb5yZ-ZyP97ds2wnSzISK94rGrv3Np-5_qAQVAfh1a3OZnG1ol0A",
+            "width": 3000
+        },
+        {
+            "height": 4000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU7JNJ7fp2arviXusQ4p1YT2I9chR5Hx-Bj66Mtvg3ceaUdEjjrKJZwVX-lM3tciUyeOWBIYw59HM_8tCZt9SjY-QREFS82hexQ_z9n8xzgtJSy_gPhS491dT2sKjsaDtwcE4t1XE-8tGk3vO13r9Ar0c_eHngD3dRHSNmvRoGyuGI6LZm3Y5mZm1BYqeoA0emDbsS_zNrPJWCbYVNK6S_nvPBevNUwoa7U-Eot6LGkoCjN472yU-AfuVUciBmsZFL5Zx403MTF8aDwhsdIQBoyVpMV0cbyUm5uIqLu-L3dFYg",
+            "width": 3000
+        },
+        {
+            "height": 3072,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/106686239358553975055\">Navarre Corporation</a>"
+            ],
+            "photo_reference": "AWn5SU6i3hfSLu9HoWJA3uVAo6t0mov1QI0B9KNO0X5SoNyDqcEQicCQ2UMsh3PJfOT10Sm0o5J8oN0R9jPDnEN4dqdAQdMLIhgOQzl80mM02YFEsFErYxhwstMEu6FjSskaQEl0c7ckeLNcshab53JQrYf99bX7HAaXFwx-6eAk0OeTEoKUZw6df7tpsb6ddKYL3xtIBBKMN3XvKsjBvdmyR9Iea3D-5mfhyeo8xAVGV4JS4QPfPdFV95lZJ-Q-wdZFSprXkg5jwQszvLA8dA2-A0CGIVojjGz2VA6YI9Cp0JhzDnQdddRlbAxgE6j9Y6pkG1QAj7BsUyvKpRWOiK9yEthTEu3Fa5aJUZPP4507-gm1eMoAzs---Ven7fw_lhSBO7_csoiJs-KMIg2OJQ-gqASikpahuKGecehyCiGgCULuJ2GdAw7634_KrnAZ4f3K",
+            "width": 4080
+        },
+        {
+            "height": 4000,
+            "html_attributions": [
+                "<a href=\"https://maps.google.com/maps/contrib/113120595141796349982\">Zip In Auto</a>"
+            ],
+            "photo_reference": "AWn5SU5ehpDvWTqCKqrksDmFN2styq_laxRufM60R9XyanDwS64GbJ-8auvb7c2UufAaoa30jtjVmaskAL5bdLX-OAV3_W03gs68mro9c-XMRJoEi7dcBEja8yY0L40_huhAWk8sW51Ls9lvsW8wCdfRvVCrTgePGFeDf-3dvIP5Gb76B2iaZVWmEasc73l0jWtt2khhpS_WTLtS9qm2ri9ZsG36rUVgRCelGvllJpGmuLCSXnE4S26TQ6EYi_69TwZxgWMUdj9iG8qyKkh8xCj-6jA-ugsZZ92wFzipvUdnewxO3g",
+            "width": 3000
+        }
+    ],
+    "rating": 4.9,
+    "reviews": [
+        {
+            "author_name": "Navarre Corporation",
+            "author_url": "https://www.google.com/maps/contrib/106686239358553975055/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIF606nX5IHRs7c4ZFaaXDWwgSl87sEM4ZdVsI9NxfA1QnZRw=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "3 months ago",
+            "text": "Fantastic place!\nExtremely friendly, honest and efficient service. Our company has used many places over the last decade and this one stands out as tops. Look at the spacious clean waiting area with free drinks and treats. And the front they took the time to personalize it with some of nature's beauty too!\nDefinitely recommend this place as in my lifetime I've visited uncountable service places.",
+            "time": 1755975844,
+            "translated": false
+        },
+        {
+            "author_name": "Allie Joan",
+            "author_url": "https://www.google.com/maps/contrib/109978213735790379322/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ36WZ1lnqILOSpOxvsod2ggBtoEqraOX4c3aDGHnq5IfxApMg=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "relative_time_description": "a month ago",
+            "text": "The staff here is very kind. They don\u2019t upcharge you or try to get you to buy unnecessary extras for your car. Plus, they offer free snacks and drinks!",
+            "time": 1760463351,
+            "translated": false
+        },
+        {
+            "author_name": "Marcell Newhouse",
+            "author_url": "https://www.google.com/maps/contrib/104578523808832211675/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLXnkkOmb1SEdVH3Kp5Nrkd_k3qM6UZrGKKVlgodj24an6rp7Y=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "2 months ago",
+            "text": "I took my 2017 Ford Explorer in for a water pump repair.\nA 10 to 12 hour job. ZipIn did it in a day.\nThey were nice, courteous, professional and very friendly.\nMy new, go to repair shop.\nP.S. I received 2 previous\nquotes, ZipIn gave me the best one. Their service is impeccable.\nA no nonsense get it done repair shop.\nThank you ZipIn, you WILL be seeing me again when I need you.\nTHANKS!!! \u263a \ud83d\udc4d\nMARCELUS-\n\nI had to take me vehicle back for an a/c repair.  I can't find anything negative to say about this shop.\nTHANK YOU ZIPIN. A+++",
+            "time": 1759012417,
+            "translated": false
+        },
+        {
+            "author_name": "William Carter",
+            "author_url": "https://www.google.com/maps/contrib/106879512880965449661/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX5wNa9NV7U80e4iL60k5Z-GmSlioHvWFDj0AfTq983oUjnHxY=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "3 months ago",
+            "text": "I needed an inspection completed on one of my work vehicles, and Nitesh and the team at Zip In Auto shop really came through for us. They were able to fit us in right away, completed the inspection thoroughly, and kept everything running smoothly. The staff was professional, friendly, and made the whole process easy from start to finish. It\u2019s rare to find that level of customer service and efficiency, especially on short notice. Highly recommend to anyone looking for reliable, top-notch auto service!",
+            "time": 1756337128,
+            "translated": false
+        },
+        {
+            "author_name": "Elizabeth Ducker",
+            "author_url": "https://www.google.com/maps/contrib/104987304469596016869/reviews",
+            "language": "en",
+            "original_language": "en",
+            "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIPRlx1C-1sDVYWgQaIOWFtD5VuBt7NrClrxKbraT2DrzaSdBk=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "relative_time_description": "2 months ago",
+            "text": "Nitesh and his team are some of the best I've worked with!\nI went in today for a brake pad change and he had no hesitation on putting my car right in his shop!\nI've come here for about 4 years now and one of the best people in town!\n\nGo check out this team he has very fair prices also!!",
+            "time": 1758223547,
+            "translated": false
+        }
+    ],
+    "user_ratings_total": 138,
+    "business_type": "auto_shop"
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zip In Auto - Auto Repair & Service</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="sticky-nav">
+  <div class="nav-container">
+    <span class="nav-logo">Zip In Auto</span>
+    <button class="nav-toggle" onclick="toggleNav()">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" onclick="closeNav()">Home</a></li>
+      <li><a href="#services" onclick="closeNav()">Services</a></li>
+      <li><a href="#about" onclick="closeNav()">About</a></li>
+      <li><a href="#gallery" onclick="closeNav()">Gallery</a></li>
+      <li><a href="#reviews" onclick="closeNav()">Reviews</a></li>
+      <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header id="home" class="hero auto-hero">
+  <h1>Zip In Auto</h1>
+  <p class="tagline">Professional Auto Repair & Service</p>
+  <p>901 Camden Ave #9, Campbell, CA 95008, USA</p>
+  <p class="phone">(408) 559-6677</p>
+</header>
+
+<section id="services" class="services">
+<h2>Our Services</h2>
+<div class="services-wrapper">
+  <div class="services-headers desktop-only">
+    <div class="service-header" onclick="toggleService('oil')">
+      <h3>Oil Changes <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('brakes')">
+      <h3>Brake Repair <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('diagnostics')">
+      <h3>Engine Diagnostics <span class="arrow">▼</span></h3>
+    </div>
+    <div class="service-header" onclick="toggleService('transmission')">
+      <h3>Transmission Service <span class="arrow">▼</span></h3>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="oil">
+    <div class="detail-tile">
+      <h4>Conventional Oil</h4>
+      <p>Standard motor oil for everyday driving. Cost-effective option for older vehicles.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Synthetic Blend</h4>
+      <p>Mix of conventional and synthetic oils. Better protection than conventional at a moderate price.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Full Synthetic</h4>
+      <p>Premium protection with superior performance in extreme temperatures and conditions.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="brakes">
+    <div class="detail-tile">
+      <h4>Brake Pads</h4>
+      <p>Replacement of worn brake pads with high-quality ceramic or semi-metallic options.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Rotor Service</h4>
+      <p>Rotor resurfacing or replacement to ensure smooth, safe braking performance.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Brake Fluid</h4>
+      <p>Complete brake fluid flush to maintain optimal braking system performance.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="diagnostics">
+    <div class="detail-tile">
+      <h4>Computer Scan</h4>
+      <p>Advanced diagnostic tools to identify engine problems and error codes.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Performance Testing</h4>
+      <p>Comprehensive engine performance analysis to optimize power and efficiency.</p>
+    </div>
+  </div>
+  
+  <div class="service-details desktop-details" id="transmission">
+    <div class="detail-tile">
+      <h4>Fluid Change</h4>
+      <p>Regular transmission fluid replacement to ensure smooth shifting and longevity.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Filter Replacement</h4>
+      <p>Transmission filter service to maintain clean fluid circulation.</p>
+    </div>
+    <div class="detail-tile">
+      <h4>Repair Service</h4>
+      <p>Expert transmission repairs for both automatic and manual transmissions.</p>
+    </div>
+  </div>
+  
+  <div class="mobile-services">
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('oil-mobile')">
+        <h3>Oil Changes <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="oil-mobile">
+        <div class="detail-tile">
+          <h4>Conventional Oil</h4>
+          <p>Standard motor oil for everyday driving. Cost-effective option for older vehicles.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Synthetic Blend</h4>
+          <p>Mix of conventional and synthetic oils. Better protection than conventional at a moderate price.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Full Synthetic</h4>
+          <p>Premium protection with superior performance in extreme temperatures and conditions.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('brakes-mobile')">
+        <h3>Brake Repair <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="brakes-mobile">
+        <div class="detail-tile">
+          <h4>Brake Pads</h4>
+          <p>Replacement of worn brake pads with high-quality ceramic or semi-metallic options.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Rotor Service</h4>
+          <p>Rotor resurfacing or replacement to ensure smooth, safe braking performance.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Brake Fluid</h4>
+          <p>Complete brake fluid flush to maintain optimal braking system performance.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('diagnostics-mobile')">
+        <h3>Engine Diagnostics <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="diagnostics-mobile">
+        <div class="detail-tile">
+          <h4>Computer Scan</h4>
+          <p>Advanced diagnostic tools to identify engine problems and error codes.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Performance Testing</h4>
+          <p>Comprehensive engine performance analysis to optimize power and efficiency.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="service-category">
+      <div class="service-header" onclick="toggleMobileService('transmission-mobile')">
+        <h3>Transmission Service <span class="arrow">▼</span></h3>
+      </div>
+      <div class="service-details" id="transmission-mobile">
+        <div class="detail-tile">
+          <h4>Fluid Change</h4>
+          <p>Regular transmission fluid replacement to ensure smooth shifting and longevity.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Filter Replacement</h4>
+          <p>Transmission filter service to maintain clean fluid circulation.</p>
+        </div>
+        <div class="detail-tile">
+          <h4>Repair Service</h4>
+          <p>Expert transmission repairs for both automatic and manual transmissions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="about-modal">
+<h2>About Us</h2>
+<p>At Zip In Auto, we pride ourselves on delivering exceptional service with honesty and efficiency that sets us apart. Our friendly, knowledgeable staff prioritize transparency, ensuring you receive only the necessary repairs without any upselling. With a clean, inviting waiting area stocked with complimentary snacks and drinks, we create a welcoming environment for all our customers. Experience the difference at Zip In Auto, where quality service meets genuine care.</p>
+</div>
+</section>
+
+<section id="gallery" class="gallery">
+<h2>Our Work</h2>
+<div class="grid" id="gallery-grid">
+<img src="images/places_0.jpg"/><img src="images/places_1.jpg"/><img src="images/places_2.jpg"/><img src="images/places_3.jpg"/><img src="images/places_4.jpg"/><img src="images/places_5.jpg"/><img src="images/places_6.jpg"/><img src="images/places_7.jpg"/><img src="images/stock_3.jpg"/><img src="images/stock_2.jpg"/><img src="images/stock_0.jpg"/><img src="images/stock_1.jpg"/><img src="images/stock_5.jpg"/><img src="images/stock_4.jpg"/><img src="images/stock_6.jpg"/><img src="images/stock_7.jpg"/><img src="images/stock_8.jpg"/>
+</div>
+<button class="show-more-btn" id="showMoreBtn" onclick="toggleGallery()" style="display: none;">Show More</button>
+</section>
+
+<section id="reviews" class="reviews">
+<h2>What Customers Say About Us</h2>
+<div class="reviews-summary">
+<p>Customers rave about Zip In Auto for its friendly, honest, and efficient service, consistently highlighting the staff's kindness and transparency without unnecessary upselling. The inviting atmosphere, complete with a spacious waiting area and complimentary snacks, further enhances the experience, making it a standout choice for reliable vehicle repairs.</p>
+</div>
+<div class="reviews-carousel"><div class="reviews-track">
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocIF606nX5IHRs7c4ZFaaXDWwgSl87sEM4ZdVsI9NxfA1QnZRw=s128-c0x00000000-cc-rp-mo" alt="Navarre Corporation" class="profile-img">
+                <div>
+                    <h3>Navarre Corporation</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">Fantastic place!
+Extremely friendly, honest and efficient service. Our company has used many places over the last decade and this one stands out as tops. Look at the spacious clean waiting area with f...</span>
+                <span class="review-full" style="display: none;">Fantastic place!
+Extremely friendly, honest and efficient service. Our company has used many places over the last decade and this one stands out as tops. Look at the spacious clean waiting area with free drinks and treats. And the front they took the time to personalize it with some of nature's beauty too!
+Definitely recommend this place as in my lifetime I've visited uncountable service places.</span>
+                <button class="see-more-review" onclick="toggleReview(0)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocJ36WZ1lnqILOSpOxvsod2ggBtoEqraOX4c3aDGHnq5IfxApMg=s128-c0x00000000-cc-rp-mo-ba2" alt="Allie Joan" class="profile-img">
+                <div>
+                    <h3>Allie Joan</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p>The staff here is very kind. They don’t upcharge you or try to get you to buy unnecessary extras for your car. Plus, they offer free snacks and drinks!</p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocLXnkkOmb1SEdVH3Kp5Nrkd_k3qM6UZrGKKVlgodj24an6rp7Y=s128-c0x00000000-cc-rp-mo" alt="Marcell Newhouse" class="profile-img">
+                <div>
+                    <h3>Marcell Newhouse</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">I took my 2017 Ford Explorer in for a water pump repair.
+A 10 to 12 hour job. ZipIn did it in a day.
+They were nice, courteous, professional and very friendly.
+My new, go to repair shop.
+P.S. I receiv...</span>
+                <span class="review-full" style="display: none;">I took my 2017 Ford Explorer in for a water pump repair.
+A 10 to 12 hour job. ZipIn did it in a day.
+They were nice, courteous, professional and very friendly.
+My new, go to repair shop.
+P.S. I received 2 previous
+quotes, ZipIn gave me the best one. Their service is impeccable.
+A no nonsense get it done repair shop.
+Thank you ZipIn, you WILL be seeing me again when I need you.
+THANKS!!! ☺ 👍
+MARCELUS-
+
+I had to take me vehicle back for an a/c repair.  I can't find anything negative to say about this shop.
+THANK YOU ZIPIN. A+++</span>
+                <button class="see-more-review" onclick="toggleReview(2)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a-/ALV-UjX5wNa9NV7U80e4iL60k5Z-GmSlioHvWFDj0AfTq983oUjnHxY=s128-c0x00000000-cc-rp-mo" alt="William Carter" class="profile-img">
+                <div>
+                    <h3>William Carter</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">I needed an inspection completed on one of my work vehicles, and Nitesh and the team at Zip In Auto shop really came through for us. They were able to fit us in right away, completed the inspection th...</span>
+                <span class="review-full" style="display: none;">I needed an inspection completed on one of my work vehicles, and Nitesh and the team at Zip In Auto shop really came through for us. They were able to fit us in right away, completed the inspection thoroughly, and kept everything running smoothly. The staff was professional, friendly, and made the whole process easy from start to finish. It’s rare to find that level of customer service and efficiency, especially on short notice. Highly recommend to anyone looking for reliable, top-notch auto service!</span>
+                <button class="see-more-review" onclick="toggleReview(3)">See More</button>
+            </p>
+        </div>
+        
+        <div class="review">
+            <div class="review-header">
+                <img src="https://lh3.googleusercontent.com/a/ACg8ocIPRlx1C-1sDVYWgQaIOWFtD5VuBt7NrClrxKbraT2DrzaSdBk=s128-c0x00000000-cc-rp-mo" alt="Elizabeth Ducker" class="profile-img">
+                <div>
+                    <h3>Elizabeth Ducker</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+            </div>
+            <p class="review-text">
+                <span class="review-short">Nitesh and his team are some of the best I've worked with!
+I went in today for a brake pad change and he had no hesitation on putting my car right in his shop!
+I've come here for about 4 years now and...</span>
+                <span class="review-full" style="display: none;">Nitesh and his team are some of the best I've worked with!
+I went in today for a brake pad change and he had no hesitation on putting my car right in his shop!
+I've come here for about 4 years now and one of the best people in town!
+
+Go check out this team he has very fair prices also!!</span>
+                <button class="see-more-review" onclick="toggleReview(4)">See More</button>
+            </p>
+        </div>
+        </div><button class="carousel-btn prev" onclick="moveCarousel(-1)">‹</button><button class="carousel-btn next" onclick="moveCarousel(1)">›</button><div class="pagination-dots"><div class="desktop-dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span></div><div class="mobile-dots"><span class="dot active" onclick="goToSlide(0)"></span><span class="dot" onclick="goToSlide(1)"></span><span class="dot" onclick="goToSlide(2)"></span><span class="dot" onclick="goToSlide(3)"></span><span class="dot" onclick="goToSlide(4)"></span></div></div></div>
+</section>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+<div class="contact-container">
+  <div class="contact-info">
+    <h3>Visit Our Shop</h3>
+    <p><strong>Address:</strong><br>901 Camden Ave #9, Campbell, CA 95008, USA</p>
+    <p><strong>Phone:</strong> (408) 559-6677</p>
+    
+    <div class="hours">
+      <h4>Operating Hours</h4>
+      <p>Monday: 8:00 AM – 5:00 PM</p><p>Tuesday: 8:00 AM – 5:00 PM</p><p>Wednesday: 8:00 AM – 5:00 AM</p><p>Thursday: 8:00 AM – 5:00 PM</p><p>Friday: 8:00 AM – 5:00 PM</p><p>Saturday: 8:00 AM – 5:00 PM</p><p>Sunday: Closed</p>
+    </div>
+  </div>
+  <div class="contact-form">
+    <h3>Get In Touch</h3>
+    <form>
+      <div class="form-row">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+      </div>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Subject" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</div>
+</section>
+
+<footer>
+<p>Zip In Auto © All Rights Reserved</p>
+</footer>
+
+<script>
+function toggleNav() {
+  document.getElementById('navLinks').classList.toggle('active');
+}
+function closeNav() {
+  document.getElementById('navLinks').classList.remove('active');
+}
+function toggleService(serviceId) {
+  const allDetails = document.querySelectorAll('.desktop-details');
+  const allHeaders = document.querySelectorAll('.desktop-only .service-header');
+  const allArrows = document.querySelectorAll('.desktop-only .arrow');
+  
+  allDetails.forEach(detail => {
+    if (detail.id !== serviceId) {
+      detail.classList.remove('active');
+    }
+  });
+  
+  allHeaders.forEach(header => {
+    header.classList.remove('active');
+  });
+  
+  allArrows.forEach(arrow => {
+    arrow.style.transform = 'rotate(0deg)';
+  });
+  
+  const details = document.getElementById(serviceId);
+  const clickedHeader = event.target.closest('.service-header');
+  const clickedArrow = clickedHeader.querySelector('.arrow');
+  
+  details.classList.toggle('active');
+  
+  if (details.classList.contains('active')) {
+    clickedHeader.classList.add('active');
+    clickedArrow.style.transform = 'rotate(180deg)';
+  } else {
+    clickedHeader.classList.remove('active');
+    clickedArrow.style.transform = 'rotate(0deg)';
+  }
+}
+
+function toggleMobileService(serviceId) {
+  const details = document.getElementById(serviceId);
+  const clickedHeader = event.target.closest('.service-header');
+  const clickedArrow = clickedHeader.querySelector('.arrow');
+  
+  details.classList.toggle('active');
+  
+  if (details.classList.contains('active')) {
+    clickedArrow.style.transform = 'rotate(180deg)';
+  } else {
+    clickedArrow.style.transform = 'rotate(0deg)';
+  }
+}
+
+function toggleGallery() {
+  const grid = document.getElementById('gallery-grid');
+  const btn = document.getElementById('showMoreBtn');
+  
+  if (grid.classList.contains('collapsed')) {
+    grid.classList.remove('collapsed');
+    btn.textContent = 'Show Less';
+  } else {
+    grid.classList.add('collapsed');
+    btn.textContent = 'Show More';
+  }
+}
+
+function toggleReview(index) {
+  const review = document.querySelectorAll('.review')[index];
+  const shortText = review.querySelector('.review-short');
+  const fullText = review.querySelector('.review-full');
+  const button = review.querySelector('.see-more-review');
+  
+  if (fullText.style.display === 'none') {
+    shortText.style.display = 'none';
+    fullText.style.display = 'inline';
+    button.textContent = 'See Less';
+  } else {
+    shortText.style.display = 'inline';
+    fullText.style.display = 'none';
+    button.textContent = 'See More';
+  }
+}
+
+window.addEventListener('scroll', function() {
+  const nav = document.querySelector('.sticky-nav');
+  if (window.scrollY > 50) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
+
+let currentReview = 0;
+const totalReviews = document.querySelectorAll('.review').length;
+let startX = 0;
+let isDragging = false;
+
+function moveCarousel(direction) {
+  const isMobile = window.innerWidth <= 768;
+  const reviewsPerView = isMobile ? 1 : 3;
+  const maxIndex = Math.max(0, totalReviews - reviewsPerView);
+  
+  currentReview += direction;
+  if (currentReview < 0) currentReview = maxIndex;
+  if (currentReview > maxIndex) currentReview = 0;
+  
+  const track = document.querySelector('.reviews-track');
+  const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+  track.style.transform = `translateX(-${movePercent}%)`;
+  
+  updatePaginationDots();
+}
+
+function goToSlide(index) {
+  const isMobile = window.innerWidth <= 768;
+  const reviewsPerView = isMobile ? 1 : 3;
+  const maxIndex = Math.max(0, totalReviews - reviewsPerView);
+  
+  currentReview = Math.min(index, maxIndex);
+  
+  const track = document.querySelector('.reviews-track');
+  const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+  track.style.transform = `translateX(-${movePercent}%)`;
+  
+  updatePaginationDots();
+}
+
+function updatePaginationDots() {
+  const isMobile = window.innerWidth <= 768;
+  const dotsContainer = isMobile ? '.mobile-dots' : '.desktop-dots';
+  const dots = document.querySelectorAll(`${dotsContainer} .dot`);
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === currentReview);
+  });
+}
+
+// Touch/swipe support with real-time movement
+const carousel = document.querySelector('.reviews-carousel');
+const track = document.querySelector('.reviews-track');
+
+if (carousel && track) {
+  // Touch events
+  carousel.addEventListener('touchstart', e => {
+    startX = e.touches[0].clientX;
+    isDragging = true;
+    track.style.transition = 'none';
+  });
+  
+  carousel.addEventListener('touchmove', e => {
+    if (!isDragging) return;
+    const currentX = e.touches[0].clientX;
+    const diff = currentX - startX;
+    const isMobile = window.innerWidth <= 768;
+    const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+    track.style.transform = `translateX(${-movePercent + (diff * 0.1)}%)`;
+  });
+  
+  carousel.addEventListener('touchend', e => {
+    if (!isDragging) return;
+    const endX = e.changedTouches[0].clientX;
+    const diff = startX - endX;
+    
+    track.style.transition = 'transform 0.3s ease';
+    if (Math.abs(diff) > 50) {
+      moveCarousel(diff > 0 ? 1 : -1);
+    } else {
+      const isMobile = window.innerWidth <= 768;
+      const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+      track.style.transform = `translateX(-${movePercent}%)`;
+    }
+    isDragging = false;
+  });
+  
+  // Mouse events
+  carousel.addEventListener('mousedown', e => {
+    startX = e.clientX;
+    isDragging = true;
+    track.style.transition = 'none';
+    e.preventDefault();
+  });
+  
+  carousel.addEventListener('mousemove', e => {
+    if (!isDragging) return;
+    const currentX = e.clientX;
+    const diff = currentX - startX;
+    const isMobile = window.innerWidth <= 768;
+    const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+    track.style.transform = `translateX(${-movePercent + (diff * 0.1)}%)`;
+  });
+  
+  carousel.addEventListener('mouseup', e => {
+    if (!isDragging) return;
+    const diff = startX - e.clientX;
+    
+    track.style.transition = 'transform 0.3s ease';
+    if (Math.abs(diff) > 50) {
+      moveCarousel(diff > 0 ? 1 : -1);
+    } else {
+      const isMobile = window.innerWidth <= 768;
+      const movePercent = isMobile ? currentReview * 100 : currentReview * 33.33;
+      track.style.transform = `translateX(-${movePercent}%)`;
+    }
+    isDragging = false;
+  });
+}
+
+window.addEventListener('load', function() {
+  if (window.innerWidth <= 768) {
+    const grid = document.getElementById('gallery-grid');
+    const btn = document.getElementById('showMoreBtn');
+    const images = grid.querySelectorAll('img');
+    
+    if (images.length > 2) {
+      grid.classList.add('collapsed');
+      btn.style.display = 'block';
+    }
+  }
+});
+</script>
+
+</body>
+</html>
